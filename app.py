@@ -28,7 +28,7 @@ UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 
 EXAMPLE_CONTENT = "Srikanth.jpeg"
 EXAMPLE_STYLE = "style.jpg"
-EXAMPLE_RESULT = "result.png"
+EXAMPLE_RESULT = "Result.png"
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.environ.get(
