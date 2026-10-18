@@ -1,0 +1,21 @@
+cat > .gitignore <<'EOF'
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+*.log
+*.zip
+
+content_data/
+style_data/
+experiment/
+pytorch-AdaIN/input/
+
+static/uploads/*
+!static/uploads/.gitkeep
+
+*.pth
+*.pt
+*.ckpt
+EOF
